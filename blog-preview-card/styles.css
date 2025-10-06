@@ -127,3 +127,17 @@ body {
         }
     }
 }
+
+@media (hover:hover) {
+    body {
+        .container {
+            .content {
+                .title:hover {
+                    color: var(--yellow);
+                    transition: color 0.2s ease-in-out;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
